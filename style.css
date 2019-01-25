@@ -1,0 +1,119 @@
+/****************************
+Global Style
+****************************/
+
+/*no margin or padding*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/*Define the font for the whole page*/
+body
+{
+    font-size: 100%;
+    font-style: normal;
+    font-family: Verdana, sans-serif;
+}
+
+/****************************
+Header Style
+****************************/
+
+/*Add padding to the header*/
+#header
+{
+    padding: 10px 10px;
+}
+
+/*all header lists have no bullets*/
+#header ul
+{
+    list-style-type: none;
+}
+
+/*change the font/padding for the big items below my name*/
+#header ul.me_list li
+{
+    font-size: 1.4em;
+    padding: 0px 10px;
+}
+
+/*change the padding for the little items afterward*/
+#header ul.info_list li
+{
+    padding: 3px 10px;
+}
+
+/*profile img floats left*/
+#header img
+{        
+    float: left;
+    margin: 0px 10px;
+    width: 200px;
+    height: auto;
+}
+
+/****************************
+Content Style
+****************************/
+
+/*sets the color of text in the content section to black*/
+/*sets the width of the content section to 500px*/
+#content p
+{
+    color: #000;
+    width: 500px;
+}
+
+
+.content_block
+{
+    padding: 0px 10px;
+}
+
+
+.content_block h1
+{
+    padding: 10px 0px;
+    font-size: 1.7em;
+    clear: both;
+}
+
+
+ul.pub_list li
+{
+    padding: 5px 0px;
+}
+
+/****************************
+Project Block Style
+****************************/
+
+/*make projects display in block style*/
+/*clear prevents any earlier floats from interfering*/
+.project_block
+{
+    display: block;
+    width: 500px;
+    padding: 10px 10px;
+    clear: both;
+}
+
+
+/*make the project images float to the left*/
+/*set their width to 50% of the project block*/
+.project_block img
+{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 0px 10px;
+}
+
+.project_block h3
+{
+    color: #000;
+    padding: 5px 0px;
+}
